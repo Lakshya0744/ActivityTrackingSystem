@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Activity Tracker</string>
+    <string name="activity_tracker">Activity Tracker</string>
+    <string name="heart_rate">Heart Rate</string>
+    <string name="steps">Steps</string>
+    <string name="bmi">BMI</string>
+    <string name="body_fat">Body Fat %</string>
+    <string name="user_info">User Info</string>
+    <string name="save_info">Save</string>
+    <string name="user_unit_metric">Metric Units</string>
+    <string name="user_unit_imperial">Imperial Units</string>
+    <string name="user_gender">Gender</string>
+    <string name="user_gender_male">Male</string>
+    <string name="user_gender_female">Female</string>
+    <string name="user_age">Age</string>
+    <string name="user_height_metric">Height (cm)</string>
+    <string name="user_height_imperial_ft">Height (ft)</string>
+    <string name="user_height_imperial_in">Height (in)</string>
+    <string name="user_weight_metric">Weight (kg)</string>
+    <string name="user_weight_imperial">Weight (lbs)</string>
+    <string name="user_min_heart_rate">Min Heart Rate</string>
+    <string name="user_max_heart_rate">Max Heart Rate</string>
+    <string name="user_emergency_number">Emergency #</string>
+    <string name="call_emergency">Calling Emergency\n Number</string>
+</resources>

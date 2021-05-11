@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".Activities.HeartRateActivity"
+    tools:deviceIds="wear">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            style="@style/TextAppearance.ActivityTracker.TextInputLayout.HintText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/heart_rate"
+            android:paddingTop="15dp"
+            android:textAlignment="center"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="#9E9E9E"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            style="@style/TextAppearance.ActivityTracker.TextInputLayout.HintText"
+            android:id="@+id/hr_val1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:paddingTop="20dp"
+            android:textAlignment="center"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            style="@style/TextAppearance.ActivityTracker.TextInputLayout.HintText"
+            android:id="@+id/bmp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+</androidx.wear.widget.BoxInsetLayout>
